@@ -17,7 +17,6 @@
 package io.cdap.wrangler.api.parser;
 
 import io.cdap.wrangler.api.annotations.PublicEvolving;
-
 import java.io.Serializable;
 
 /**
@@ -147,8 +146,10 @@ public enum TokenType implements Serializable {
    * </code>
    */
   RANGES,
+  BYTE_SIZE,
+  TIME
 
-  /**
+ RATION, /**
    * Represents the enumerated type for the object of type {@code String} with restrictions
    * on characters that can be present in a string.
    */
